@@ -1,0 +1,7 @@
+
+root@carambola2:/# 
+root@carambola2:/# ls
+bin        lib        proc       sbin       test2.txt  var
+dev        mnt        rom        sys        tmp        www
+etc        overlay    root       test.txt   usr
+root@carambola2:/# 
