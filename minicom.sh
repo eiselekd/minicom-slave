@@ -6,4 +6,4 @@ function quit {
 	 cat ${l}.tmp >> $l
 	 rm ${HOME}/extrapty
 }
-(minicom-slave $@ -C ${l}.tmp -X ${HOME}/extrapty && quit) || quit
+(${HOME}/bin-minicom/bin/minicom $@ -C ${l}.tmp -X ${HOME}/extrapty && quit) || quit
